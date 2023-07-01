@@ -1,9 +1,19 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #F5F5DC; /* Slightly creamy white */
+    color: #000000; /* Black text */
+    font-family: Arial, sans-serif; /* Professional, clean font */
+}
+
+.input-box {
+    border: 2px solid #363636; /* Charcoal-grey-black color */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #000000; /* Black text */
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #AB9967; /* Company's specific color */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -13,4 +23,20 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.header {
+    background-color: #AB9967; /* Company's specific color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #AB9967; /* Company's specific color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }
